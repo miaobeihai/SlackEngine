@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\engine\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\body\Body.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\body\CollisionBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\body\RigidBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\ContactManifoldInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\broadphase\BroadPhaseAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\broadphase\DynamicAABBTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\DefaultCollisionDispatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\GJK\VoronoiSimplex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\GJK\GJKAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\SAT\SATAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\SphereVsSphereAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\CapsuleVsCapsuleAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\SphereVsCapsuleAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\SphereVsConvexPolyhedronAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\CapsuleVsConvexPolyhedronAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\ConvexPolyhedronVsConvexPolyhedronAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\AABB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\ConvexShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\ConvexPolyhedronShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\ConcaveShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\BoxShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\CapsuleShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\CollisionShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\ConvexMeshShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\SphereShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\TriangleShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\ConcaveMeshShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\HeightFieldShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\RaycastInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\ProxyShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\TriangleVertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\PolygonVertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\TriangleMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\PolyhedronMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\HalfEdgeStructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\CollisionDetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\NarrowPhaseInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\ContactManifold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\ContactManifoldSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\MiddlePhaseTriangleCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\constraint\BallAndSocketJoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\constraint\ContactPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\constraint\FixedJoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\constraint\HingeJoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\constraint\Joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\constraint\SliderJoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\engine\CollisionWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\engine\ConstraintSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\engine\ContactSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\engine\DynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\engine\Island.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\engine\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\engine\OverlappingPair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\collision\CollisionCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\mathematics\mathematics_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Matrix2x2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Matrix3x3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\memory\DefaultPoolAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\memory\DefaultSingleFrameAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\memory\MemoryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\utils\Profiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\ScrapEngine\external\reactphysics\src\utils\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\decimal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\reactphysics3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\body\Body.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\body\CollisionBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\body\RigidBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\ContactPointInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\ContactManifoldInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\broadphase\BroadPhaseAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\broadphase\DynamicAABBTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\CollisionDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\DefaultCollisionDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\GJK\VoronoiSimplex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\GJK\GJKAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\SAT\SATAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\NarrowPhaseAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\SphereVsSphereAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\CapsuleVsCapsuleAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\SphereVsCapsuleAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\SphereVsConvexPolyhedronAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\CapsuleVsConvexPolyhedronAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\narrowphase\ConvexPolyhedronVsConvexPolyhedronAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\AABB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\ConvexShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\ConvexPolyhedronShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\ConcaveShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\BoxShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\CapsuleShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\CollisionShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\ConvexMeshShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\SphereShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\TriangleShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\ConcaveMeshShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\shapes\HeightFieldShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\RaycastInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\ProxyShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\TriangleVertexArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\PolygonVertexArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\TriangleMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\PolyhedronMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\HalfEdgeStructure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\CollisionDetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\NarrowPhaseInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\ContactManifold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\ContactManifoldSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\MiddlePhaseTriangleCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\constraint\BallAndSocketJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\constraint\ContactPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\constraint\FixedJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\constraint\HingeJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\constraint\Joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\constraint\SliderJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\engine\CollisionWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\engine\ConstraintSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\engine\ContactSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\engine\DynamicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\engine\EventListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\engine\Island.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\engine\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\engine\OverlappingPair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\engine\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\CollisionCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\collision\OverlapCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\mathematics\mathematics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\mathematics\mathematics_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Matrix2x2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\mathematics\Ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\memory\MemoryAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\memory\DefaultPoolAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\memory\DefaultSingleFrameAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\memory\DefaultAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\memory\MemoryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\containers\Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\containers\LinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\containers\List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\containers\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\containers\Set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\containers\Pair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\utils\Profiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\ScrapEngine\external\reactphysics\src\utils\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\ScrapEngine\external\reactphysics\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D0907833-81EE-39EC-9F02-AEB9D7B3ED9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{03439BAA-94D2-3C20-8AED-91C91F9143D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

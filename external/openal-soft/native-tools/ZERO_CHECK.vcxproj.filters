@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\ScrapEngine\external\openal-soft\native-tools\CMakeFiles\553c0770bc73d6396d31f5a4ecb4d8bd\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4AB65E45-D436-3B7D-AEA7-F4CB70C8AA11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+[submodule "external/assimp"]
+	path = external/assimp
+	url = https://github.com/assimp/assimp
+	ignore = dirty
+[submodule "external/glfw"]
+	path = external/glfw
+	url = https://github.com/glfw/glfw.git
+	ignore = dirty
+[submodule "external/glm"]
+	path = external/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "external/stb"]
+	path = external/stb
+	url = https://github.com/nothings/stb
+[submodule "external/openal-soft"]
+	path = external/openal-soft
+	url = https://github.com/kcat/openal-soft
+	ignore = dirty
+[submodule "external/VulkanSDK/Vulkan-Headers"]
+	path = external/VulkanSDK/Vulkan-Headers
+	url = https://github.com/KhronosGroup/Vulkan-Headers
+[submodule "external/reactphysics"]
+	path = external/reactphysics
+	url = https://github.com/DanielChappuis/reactphysics3d.git
+	ignore = dirty
+[submodule "external/enkits"]
+	path = external/enkits
+	url = https://github.com/dougbinks/enkiTS.git
+	ignore = dirty
+[submodule "external/dr_libs"]
+	path = external/dr_libs
+	url = https://github.com/mackron/dr_libs.git
+[submodule "external/imgui"]
+	path = external/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "external/VulkanMemoryAllocator"]
+	path = external/VulkanMemoryAllocator
+	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git

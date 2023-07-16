@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\external\imgui\imgui.cpp" />
+    <ClCompile Include="..\..\external\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\..\external\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\..\external\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Engine\Audio\Buffer\AudioBuffer.cpp" />
+    <ClCompile Include="Engine\Audio\Buffer\Wav\WavAudioBuffer.cpp" />
+    <ClCompile Include="Engine\Audio\Context\AudioContext.cpp" />
+    <ClCompile Include="Engine\Audio\Device\AudioDevice.cpp" />
+    <ClCompile Include="Engine\Audio\Listener\AudioListener.cpp" />
+    <ClCompile Include="Engine\Audio\Manager\AudioManager.cpp" />
+    <ClCompile Include="Engine\Audio\Source\AudioSource.cpp" />
+    <ClCompile Include="Engine\Debug\DebugLog.cpp" />
+    <ClCompile Include="Engine\Input\Gui\GuiInput.cpp" />
+    <ClCompile Include="Engine\Input\Manager\InputManager.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\AudioComponent\2dAudioComponent\2DAudioComponent.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\AudioComponent\3dAudioComponent\3DAudioComponent.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\AudioComponent\AudioComponent.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\CameraComponent\CameraComponent.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\Manager\ComponentsManager.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\MeshComponent\MeshComponent.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\RigidBodyComponent\BoxRigidBodyComponent\BoxRigidBodyComponent.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\RigidBodyComponent\CapsuleRigidBodyComponent\CapsuleRigidBodyComponent.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\RigidBodyComponent\RigidBodyComponent.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\RigidBodyComponent\SphereRigidBodyComponent\SphereRigidBodyComponent.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\SComponent.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\TriggerComponent\BoxTriggerComponent\BoxTriggerComponent.cpp" />
+    <ClCompile Include="Engine\LogicCore\Components\TriggerComponent\TriggerComponent.cpp" />
+    <ClCompile Include="Engine\LogicCore\GameObject\SGameObject.cpp" />
+    <ClCompile Include="Engine\LogicCore\Manager\LogicManager.cpp" />
+    <ClCompile Include="Engine\LogicCore\Manager\LogicManagerView.cpp" />
+    <ClCompile Include="Engine\LogicCore\Math\Quaternion\SQuaternion.cpp" />
+    <ClCompile Include="Engine\LogicCore\Math\Transform\STransform.cpp" />
+    <ClCompile Include="Engine\LogicCore\Math\Vector\SVector3.cpp" />
+    <ClCompile Include="Engine\LogicCore\Scene\SceneManager.cpp" />
+    <ClCompile Include="Engine\LogicCore\SObject.cpp" />
+    <ClCompile Include="Engine\Manager\EngineManager.cpp" />
+    <ClCompile Include="Engine\Physics\CollisionBody\CollisionBody.cpp" />
+    <ClCompile Include="Engine\Physics\CollisionShape\BoxShape\BoxShape.cpp" />
+    <ClCompile Include="Engine\Physics\CollisionShape\CapsuleShape\CapsuleShape.cpp" />
+    <ClCompile Include="Engine\Physics\CollisionShape\CollisionShape.cpp" />
+    <ClCompile Include="Engine\Physics\CollisionShape\SphereShape\SphereShape.cpp" />
+    <ClCompile Include="Engine\Physics\CollisionWorld\DynamicsWorld\DiscreteDynamicsWorld.cpp" />
+    <ClCompile Include="Engine\Physics\Manager\PhysicsManager.cpp" />
+    <ClCompile Include="Engine\Physics\Raycast\MultiRaycast\MultiRaycast.cpp" />
+    <ClCompile Include="Engine\Physics\Raycast\RaycastResultInfo.cpp" />
+    <ClCompile Include="Engine\Physics\Raycast\SingleRaycast\SingleRaycast.cpp" />
+    <ClCompile Include="Engine\Physics\RigidBody\RigidBody.cpp" />
+    <ClCompile Include="Engine\Physics\Utils\ConversionUtils.cpp" />
+    <ClCompile Include="Engine\Rendering\Camera\Camera.cpp" />
+    <ClCompile Include="Engine\Rendering\Camera\CameraFrustum.cpp" />
+    <ClCompile Include="Engine\Rendering\DepthResources\VulkanDepthResources.cpp" />
+    <ClCompile Include="Engine\Rendering\Gui\VulkanImGui.cpp" />
+    <ClCompile Include="Engine\Rendering\Manager\RenderManager.cpp" />
+    <ClCompile Include="Engine\Rendering\Manager\RenderManagerView.cpp" />
+    <ClCompile Include="Engine\Rendering\Model\Material\BasicMaterial.cpp" />
+    <ClCompile Include="Engine\Rendering\Model\Material\SimpleMaterial\SimpleMaterial.cpp" />
+    <ClCompile Include="Engine\Rendering\Model\Material\SkyboxMaterial\SkyboxMaterial.cpp" />
+    <ClCompile Include="Engine\Rendering\Model\MeshInstance\VulkanMeshInstance.cpp" />
+    <ClCompile Include="Engine\Rendering\Model\Model\Mesh\Mesh.cpp" />
+    <ClCompile Include="Engine\Rendering\Model\Model\VulkanModel.cpp" />
+    <ClCompile Include="Engine\Rendering\Model\ObjectPool\VulkanModelBuffersPool\VulkanModelBuffersPool.cpp" />
+    <ClCompile Include="Engine\Rendering\Model\ObjectPool\VulkanModelPool\VulkanModelPool.cpp" />
+    <ClCompile Include="Engine\Rendering\Model\ObjectPool\VulkanSimpleMaterialPool\VulkanSimpleMaterialPool.cpp" />
+    <ClCompile Include="Engine\Rendering\Model\SkyboxInstance\VulkanSkyboxInstance.cpp" />
+    <ClCompile Include="Engine\Rendering\Shader\ShaderManager.cpp" />
+    <ClCompile Include="Engine\Rendering\Shadowmapping\Standard\StandardShadowmapping.cpp" />
+    <ClCompile Include="Engine\Rendering\ValidationLayers\VulkanValidationLayers.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\BaseBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\BufferContainer\BufferContainer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\BufferContainer\IndicesBufferContainer\IndicesBufferContainer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\BufferContainer\VertexBufferContainer\VertexBufferContainer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\CommandBuffer\BaseCommandBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\CommandBuffer\GuiCommandBuffer\GuiCommandBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\CommandBuffer\StandardCommandBuffer\StandardCommandBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\BaseFrameBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\ShadowmappingFrameBuffer\ShadowmappingFrameBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\ShadowmappingFrameBuffer\ShadowmappingFrameBufferAttachment.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\StandardFrameBuffer\StandardFrameBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\GenericBuffer\GenericBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\IndexBuffer\IndexBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\BaseStagingBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\ImageStagingBuffer\ImageStagingBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\IndicesStagingBuffer\IndicesStagingBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\VertexStagingBuffer\VertexStagingBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\ColorResources\VulkanColorResources.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\TextureImageView\TextureImageView.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\TextureSampler\TextureSampler.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\BaseTexture.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\SkyboxTexture\SkyboxStagingTexture.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\SkyboxTexture\SkyboxTexture.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\StandardTexture\StandardTexture.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\BaseUniformBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\ShadowmappingUniformBuffer\ShadowmappingUniformBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\SkyboxUniformBuffer\SkyboxUniformBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\StandardUniformBuffer\StandardUniformBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\VertexBuffer\VertexBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\CommandPool\Singleton\SingletonCommandPool.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\CommandPool\Standard\StandardCommandPool.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\CommandPool\VulkanCommandPool.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorPool\BaseDescriptorPool.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorPool\GuiDescriptorPool\GuiDescriptorPool.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorPool\StandardDescriptorPool\StandardDescriptorPool.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\BaseDescriptorSet.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\GuiDescriptorSet\GuiDescriptorSet.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\ShadowmappingDescriptorSet\ShadowmappingDescriptorSet.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\SkyboxDescriptorSet\SkyboxDescriptorSet.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\StandardDescriptorSet\StandardDescriptorSet.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Device\VulkanDevice.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Instance\VukanInstance.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Memory\VulkanMemoryAllocator.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Pipeline\BaseVulkanGraphicsPipeline.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Pipeline\GuiPipeline\GuiVulkanGraphicsPipeline.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Pipeline\ShadowmappingPipeline\ShadowmappingPipeline.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Pipeline\SkyboxPipeline\SkyboxVulkanGraphicsPipeline.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Pipeline\StandardPipeline\StandardVulkanGraphicsPipeline.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Queue\BaseQueue.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Queue\GraphicsQueue\GraphicsQueue.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Queue\PresentationQueue\PresentQueue.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\RenderPass\BaseRenderPass.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\RenderPass\GuiRenderPass\GuiRenderPass.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\RenderPass\ShadowmappingRenderPass\ShadowmappingRenderPass.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\RenderPass\StandardRenderPass\StandardRenderPass.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Semaphores\VulkanSemaphoresManager.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\SwapChain\VulkanImageView.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\SwapChain\VulkanSwapChain.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Vertex.cpp">
+      <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <AssemblerListingLocation>x64\Debug\</AssemblerListingLocation>
+      <UndefineAllPreprocessorDefinitions>false</UndefineAllPreprocessorDefinitions>
+      <BrowseInformation>false</BrowseInformation>
+      <BrowseInformationFile>x64\Debug\</BrowseInformationFile>
+      <CompileAs>Default</CompileAs>
+      <ConformanceMode>true</ConformanceMode>
+      <DiagnosticsFormat>Column</DiagnosticsFormat>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <ErrorReporting>Prompt</ErrorReporting>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <EnableASAN>false</EnableASAN>
+      <EnableFuzzer>false</EnableFuzzer>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <GenerateModuleDependencies>false</GenerateModuleDependencies>
+      <GenerateSourceDependencies>false</GenerateSourceDependencies>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ModuleDependenciesFile>x64\Debug\</ModuleDependenciesFile>
+      <ModuleOutputFile>x64\Debug\</ModuleOutputFile>
+      <OmitDefaultLibName>false</OmitDefaultLibName>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ObjectFileName>x64\Debug\</ObjectFileName>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ProgramDataBaseFileName>E:\ScrapEngine\ScrapEngine\x64\Debug\SlackEngine.pdb</ProgramDataBaseFileName>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>x64\Debug\SlackEngine.pch</PrecompiledHeaderOutputFile>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessKeepComments>false</PreprocessKeepComments>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+      <ShowIncludes>false</ShowIncludes>
+      <SourceDependenciesFile>x64\Debug\</SourceDependenciesFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <SpectreMitigation>false</SpectreMitigation>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <TrackerLogDirectory>x64\Debug\SlackEngine.tlog\</TrackerLogDirectory>
+      <TranslateIncludes>false</TranslateIncludes>
+      <MinimalRebuildFromTracking>true</MinimalRebuildFromTracking>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <XMLDocumentationFileName>x64\Debug\</XMLDocumentationFileName>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <IntelJCCErratum>false</IntelJCCErratum>
+      <TreatAngleIncludeAsExternal>false</TreatAngleIncludeAsExternal>
+      <ExternalWarningLevel>InheritWarningLevel</ExternalWarningLevel>
+      <TreatExternalTemplatesAsInternal>true</TreatExternalTemplatesAsInternal>
+      <DisableAnalyzeExternal>false</DisableAnalyzeExternal>
+      <PreprocessorDefinitions>_DEBUG;_LIB;_MBCS;</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <DisableSpecificWarnings>4006;</DisableSpecificWarnings>
+      <LibCompiled>true</LibCompiled>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Window\GameWindow.cpp" />
+    <ClCompile Include="Engine\Rendering\Window\VulkanSurface.cpp" />
+    <ClCompile Include="Engine\Utility\UsefulMethods.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\external\imgui\imgui.h" />
+    <ClInclude Include="..\..\external\imgui\imgui_internal.h" />
+    <ClInclude Include="..\..\external\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\..\external\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\..\external\imgui\imstb_truetype.h" />
+    <ClInclude Include="..\..\external\stb\stb_image.h" />
+    <ClInclude Include="Engine\Audio\Buffer\AudioBuffer.h" />
+    <ClInclude Include="Engine\Audio\Buffer\Wav\WavAudioBuffer.h" />
+    <ClInclude Include="Engine\Audio\Context\AudioContext.h" />
+    <ClInclude Include="Engine\Audio\Device\AudioDevice.h" />
+    <ClInclude Include="Engine\Audio\Listener\AudioListener.h" />
+    <ClInclude Include="Engine\Audio\Manager\AudioManager.h" />
+    <ClInclude Include="Engine\Audio\Source\AudioSource.h" />
+    <ClInclude Include="Engine\Debug\DebugLog.h" />
+    <ClInclude Include="Engine\Input\Gui\GuiInput.h" />
+    <ClInclude Include="Engine\Input\KeyboardKeys.h" />
+    <ClInclude Include="Engine\Input\Manager\InputManager.h" />
+    <ClInclude Include="Engine\Input\MouseButtons.h" />
+    <ClInclude Include="Engine\LogicCore\Components\AudioComponent\2dAudioComponent\2DAudioComponent.h" />
+    <ClInclude Include="Engine\LogicCore\Components\AudioComponent\3dAudioComponent\3DAudioComponent.h" />
+    <ClInclude Include="Engine\LogicCore\Components\AudioComponent\AudioComponent.h" />
+    <ClInclude Include="Engine\LogicCore\Components\CameraComponent\CameraComponent.h" />
+    <ClInclude Include="Engine\LogicCore\Components\Manager\ComponentsManager.h" />
+    <ClInclude Include="Engine\LogicCore\Components\MeshComponent\MeshComponent.h" />
+    <ClInclude Include="Engine\LogicCore\Components\RigidBodyComponent\BoxRigidBodyComponent\BoxRigidBodyComponent.h" />
+    <ClInclude Include="Engine\LogicCore\Components\RigidBodyComponent\CapsuleRigidBodyComponent\CapsuleRigidBodyComponent.h" />
+    <ClInclude Include="Engine\LogicCore\Components\RigidBodyComponent\RigidBodyComponent.h" />
+    <ClInclude Include="Engine\LogicCore\Components\RigidBodyComponent\SphereRigidBodyComponent\SphereRigidBodyComponent.h" />
+    <ClInclude Include="Engine\LogicCore\Components\SComponent.h" />
+    <ClInclude Include="Engine\LogicCore\Components\TriggerComponent\BoxTriggerComponent\BoxTriggerComponent.h" />
+    <ClInclude Include="Engine\LogicCore\Components\TriggerComponent\TriggerComponent.h" />
+    <ClInclude Include="Engine\LogicCore\GameObject\SGameObject.h" />
+    <ClInclude Include="Engine\LogicCore\Manager\LogicManager.h" />
+    <ClInclude Include="Engine\LogicCore\Manager\LogicManagerView.h" />
+    <ClInclude Include="Engine\LogicCore\Math\Quaternion\SQuaternion.h" />
+    <ClInclude Include="Engine\LogicCore\Math\Transform\STransform.h" />
+    <ClInclude Include="Engine\LogicCore\Math\Vector\SVector3.h" />
+    <ClInclude Include="Engine\LogicCore\Scene\SceneManager.h" />
+    <ClInclude Include="Engine\LogicCore\SObject.h" />
+    <ClInclude Include="Engine\Manager\EngineManager.h" />
+    <ClInclude Include="Engine\Physics\CollisionBody\CollisionBody.h" />
+    <ClInclude Include="Engine\Physics\CollisionShape\BoxShape\BoxShape.h" />
+    <ClInclude Include="Engine\Physics\CollisionShape\CapsuleShape\CapsuleShape.h" />
+    <ClInclude Include="Engine\Physics\CollisionShape\CollisionShape.h" />
+    <ClInclude Include="Engine\Physics\CollisionShape\SphereShape\SphereShape.h" />
+    <ClInclude Include="Engine\Physics\CollisionWorld\DynamicsWorld\DiscreteDynamicsWorld.h" />
+    <ClInclude Include="Engine\Physics\Manager\PhysicsManager.h" />
+    <ClInclude Include="Engine\Physics\PhysicsInclude.h" />
+    <ClInclude Include="Engine\Physics\Raycast\MultiRaycast\MultiRaycast.h" />
+    <ClInclude Include="Engine\Physics\Raycast\RaycastResultInfo.h" />
+    <ClInclude Include="Engine\Physics\Raycast\SingleRaycast\SingleRaycast.h" />
+    <ClInclude Include="Engine\Physics\RigidBody\RigidBody.h" />
+    <ClInclude Include="Engine\Physics\Utils\ConversionUtils.h" />
+    <ClInclude Include="Engine\Rendering\Camera\Camera.h" />
+    <ClInclude Include="Engine\Rendering\Camera\CameraFrustum.h" />
+    <ClInclude Include="Engine\Rendering\DepthResources\VulkanDepthResources.h" />
+    <ClInclude Include="Engine\Rendering\Gui\VulkanImGui.h" />
+    <ClInclude Include="Engine\Rendering\Manager\RenderManager.h" />
+    <ClInclude Include="Engine\Rendering\Manager\RenderManagerView.h" />
+    <ClInclude Include="Engine\Rendering\Model\Material\BasicMaterial.h" />
+    <ClInclude Include="Engine\Rendering\Model\Material\SimpleMaterial\SimpleMaterial.h" />
+    <ClInclude Include="Engine\Rendering\Model\Material\SkyboxMaterial\SkyboxMaterial.h" />
+    <ClInclude Include="Engine\Rendering\Model\MeshInstance\VulkanMeshInstance.h" />
+    <ClInclude Include="Engine\Rendering\Model\Model\Mesh\Mesh.h" />
+    <ClInclude Include="Engine\Rendering\Model\Model\VulkanModel.h" />
+    <ClInclude Include="Engine\Rendering\Model\ObjectPool\VulkanModelBuffersPool\VulkanModelBuffersPool.h" />
+    <ClInclude Include="Engine\Rendering\Model\ObjectPool\VulkanModelPool\VulkanModelPool.h" />
+    <ClInclude Include="Engine\Rendering\Model\ObjectPool\VulkanSimpleMaterialPool\VulkanSimpleMaterialPool.h" />
+    <ClInclude Include="Engine\Rendering\Model\SkyboxInstance\VulkanSkyboxInstance.h" />
+    <ClInclude Include="Engine\Rendering\Shader\ShaderManager.h" />
+    <ClInclude Include="Engine\Rendering\Shadowmapping\Standard\StandardShadowmapping.h" />
+    <ClInclude Include="Engine\Rendering\ValidationLayers\VulkanValidationLayers.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\BaseBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\BufferContainer\BufferContainer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\BufferContainer\IndicesBufferContainer\IndicesBufferContainer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\BufferContainer\VertexBufferContainer\VertexBufferContainer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\CommandBuffer\BaseCommandBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\CommandBuffer\GuiCommandBuffer\GuiCommandBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\CommandBuffer\StandardCommandBuffer\StandardCommandBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\BaseFrameBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\ShadowmappingFrameBuffer\ShadowmappingFrameBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\ShadowmappingFrameBuffer\ShadowmappingFrameBufferAttachment.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\StandardFrameBuffer\StandardFrameBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\GenericBuffer\GenericBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\IndexBuffer\IndexBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\BaseStagingBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\ImageStagingBuffer\ImageStagingBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\IndicesStagingBuffer\IndicesStagingBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\VertexStagingBuffer\VertexStagingBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\ColorResources\VulkanColorResources.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\TextureImageView\TextureImageView.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\TextureSampler\TextureSampler.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\BaseTexture.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\SkyboxTexture\SkyboxStagingTexture.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\SkyboxTexture\SkyboxTexture.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\StandardTexture\StandardTexture.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\BaseUniformBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\ShadowmappingUniformBuffer\ShadowmappingUniformBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\SkyboxUniformBuffer\SkyboxUniformBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\StandardUniformBuffer\StandardUniformBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\VertexBuffer\VertexBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\CommandPool\Singleton\SingletonCommandPool.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\CommandPool\Standard\StandardCommandPool.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\CommandPool\VulkanCommandPool.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorPool\BaseDescriptorPool.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorPool\GuiDescriptorPool\GuiDescriptorPool.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorPool\StandardDescriptorPool\StandardDescriptorPool.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\BaseDescriptorSet.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\GuiDescriptorSet\GuiDescriptorSet.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\ShadowmappingDescriptorSet\ShadowmappingDescriptorSet.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\SkyboxDescriptorSet\SkyboxDescriptorSet.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\StandardDescriptorSet\StandardDescriptorSet.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Device\VulkanDevice.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Instance\VukanInstance.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Memory\VulkanMemoryAllocator.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Pipeline\BaseVulkanGraphicsPipeline.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Pipeline\GuiPipeline\GuiVulkanGraphicsPipeline.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Pipeline\ShadowmappingPipeline\ShadowmappingPipeline.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Pipeline\SkyboxPipeline\SkyboxVulkanGraphicsPipeline.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Pipeline\StandardPipeline\StandardVulkanGraphicsPipeline.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Queue\BaseQueue.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Queue\GraphicsQueue\GraphicsQueue.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Queue\PresentationQueue\PresentQueue.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\RenderPass\BaseRenderPass.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\RenderPass\GuiRenderPass\GuiRenderPass.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\RenderPass\ShadowmappingRenderPass\ShadowmappingRenderPass.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\RenderPass\StandardRenderPass\StandardRenderPass.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Semaphores\VulkanSemaphoresManager.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\SwapChain\VulkanImageView.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\SwapChain\VulkanSwapChain.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Vertex.h" />
+    <ClInclude Include="Engine\Rendering\VulkanInclude.h" />
+    <ClInclude Include="Engine\Rendering\Window\GameWindow.h" />
+    <ClInclude Include="Engine\Rendering\Window\VulkanSurface.h" />
+    <ClInclude Include="Engine\Utility\UsefulMethods.h" />
+    <ClInclude Include="Engine\Utility\UsefulTypes.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{1FAD33BE-87CF-4A6F-B81F-C3D33D2EB1D4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SlackEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\external\VulkanSDK\Include;$(SolutionDir)..\external\glm;$(SolutionDir)..\external\stb;$(SolutionDir)..\external\gli;$(SolutionDir)..\external\glfw\include;$(SolutionDir)..\external\assimp\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(ProjectDir)..\..\external\VulkanSDK\Vulkan-Headers\include;$(ProjectDir)..\..\external\VulkanMemoryAllocator\include;$(ProjectDir)..\..\external\glm;$(ProjectDir)..\..\external\stb;$(ProjectDir)..\..\external\gli;$(ProjectDir)..\..\external\glfw\include;$(ProjectDir)..\..\external\assimp\include;$(ProjectDir)..\..\external\reactphysics\src;$(ProjectDir)..\..\external\enkits\src;$(ProjectDir)..\..\external\openal-soft\include;$(ProjectDir)..\..\external\openal-soft\common;$(ProjectDir)..\..\external\openal-soft\Alc;$(ProjectDir)..\..\external\openal-soft\OpenAL32\Include;$(ProjectDir)..\..\external\dr_libs;$(ProjectDir)..\..\external\imgui;E:\SlackEngine\SlackEngine\SlackEngine\Engine\Rendering\VulkanBase;E:\SlackEngine\SlackEngine\SlackEngine\Engine\Debug;E:\SlackEngine\SlackEngine\SlackEngine\Engine\Utility;$(IncludePath)</IncludePath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\external\VulkanSDK\Include;$(SolutionDir)..\external\glm;$(SolutionDir)..\external\stb;$(SolutionDir)..\external\gli;$(SolutionDir)..\external\glfw\include;$(SolutionDir)..\external\assimp\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(ProjectDir)..\..\external\VulkanSDK\Vulkan-Headers\include;$(ProjectDir)..\..\external\VulkanMemoryAllocator\src;$(ProjectDir)..\..\external\glm;$(ProjectDir)..\..\external\stb;$(ProjectDir)..\..\external\gli;$(ProjectDir)..\..\external\glfw\include;$(ProjectDir)..\..\external\assimp\include;$(ProjectDir)..\..\external\reactphysics\src;$(ProjectDir)..\..\external\enkits\src;$(ProjectDir)..\..\external\openal-soft\include;$(ProjectDir)..\..\external\openal-soft\common;$(ProjectDir)..\..\external\openal-soft\Alc;$(ProjectDir)..\..\external\openal-soft\OpenAL32\Include;$(ProjectDir)..\..\external\dr_libs;$(ProjectDir)..\..\external\imgui;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4006;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4006;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4006;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4006;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

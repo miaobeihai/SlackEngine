@@ -1,0 +1,15 @@
+E:/ScrapEngine/external/enkits/CMakeFiles/enkiTS.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/ParallelSum.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/PinnedTask.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/LambdaTask.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/Priorities.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/TaskThroughput.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/TaskOverhead.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/TestWaitforTask.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/ExternalTaskThread.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/ParallelSum_c.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/PinnedTask_c.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/Priorities_c.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/ExternalTaskThread_c.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/ALL_BUILD.dir
+E:/ScrapEngine/external/enkits/CMakeFiles/ZERO_CHECK.dir

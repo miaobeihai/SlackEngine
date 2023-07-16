@@ -1,0 +1,4 @@
+E:/ScrapEngine/external/openal-soft/native-tools/CMakeFiles/bin2h.dir
+E:/ScrapEngine/external/openal-soft/native-tools/CMakeFiles/bsincgen.dir
+E:/ScrapEngine/external/openal-soft/native-tools/CMakeFiles/ALL_BUILD.dir
+E:/ScrapEngine/external/openal-soft/native-tools/CMakeFiles/ZERO_CHECK.dir

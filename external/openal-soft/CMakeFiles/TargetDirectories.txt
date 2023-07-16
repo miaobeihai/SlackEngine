@@ -1,0 +1,13 @@
+E:/ScrapEngine/external/openal-soft/CMakeFiles/build_version.dir
+E:/ScrapEngine/external/openal-soft/CMakeFiles/native-tools.dir
+E:/ScrapEngine/external/openal-soft/CMakeFiles/common.dir
+E:/ScrapEngine/external/openal-soft/CMakeFiles/OpenAL.dir
+E:/ScrapEngine/external/openal-soft/CMakeFiles/openal-info.dir
+E:/ScrapEngine/external/openal-soft/CMakeFiles/ex-common.dir
+E:/ScrapEngine/external/openal-soft/CMakeFiles/altonegen.dir
+E:/ScrapEngine/external/openal-soft/CMakeFiles/alrecord.dir
+E:/ScrapEngine/external/openal-soft/CMakeFiles/INSTALL.dir
+E:/ScrapEngine/external/openal-soft/CMakeFiles/ALL_BUILD.dir
+E:/ScrapEngine/external/openal-soft/CMakeFiles/ZERO_CHECK.dir
+E:/ScrapEngine/external/openal-soft/utils/alsoft-config/CMakeFiles/INSTALL.dir
+E:/ScrapEngine/external/openal-soft/utils/alsoft-config/CMakeFiles/ALL_BUILD.dir

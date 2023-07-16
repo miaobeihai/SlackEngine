@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameSourceCode">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GameSourceCode\GameObjects">
+      <UniqueIdentifier>{44a01f9c-dfaf-48a4-b6f2-490d8fc9033a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSourceCode\GameObjects\Camera">
+      <UniqueIdentifier>{5bac9f45-3d9c-434e-830a-705dc5f29923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSourceCode\GameObjects\Music">
+      <UniqueIdentifier>{88d0dae7-163d-495a-bf9e-ab6558edf2d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSourceCode\GameObjects\Player">
+      <UniqueIdentifier>{e4842634-0a10-4671-b94e-17c0e2a5331c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSourceCode\GameObjects\RespawnTrigger">
+      <UniqueIdentifier>{a918ca94-8371-4cf3-b068-eeed2580668d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSourceCode\GameObjects\WorldObjects">
+      <UniqueIdentifier>{4fef78cc-9e2e-4e62-951a-33086e6f06c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSourceCode\GameObjects\WorldTerrain">
+      <UniqueIdentifier>{fd2db6f7-2df5-4521-8ebc-36975166a66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSourceCode\GameObjects\MainMenu">
+      <UniqueIdentifier>{8adf95d4-f045-4c81-a645-bb5810d98a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSourceCode\GameObjects\FinishTriggerMenu">
+      <UniqueIdentifier>{1bd05d4e-dfda-4097-b262-acd3dfaf1bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSourceCode\GameObjects\ScoreManager">
+      <UniqueIdentifier>{48d7127a-45f1-4864-b168-3303f9d90f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSourceCode\GameObjects\CheckpointTrigger">
+      <UniqueIdentifier>{ff75f059-a700-4fdf-9ec9-d2dbea561ce0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>GameSourceCode</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Camera\GameCamera.cpp">
+      <Filter>GameSourceCode\GameObjects\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Music\Music.cpp">
+      <Filter>GameSourceCode\GameObjects\Music</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\WorldTerrain\Terrain.cpp">
+      <Filter>GameSourceCode\GameObjects\WorldTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\WorldObjects\Coin.cpp">
+      <Filter>GameSourceCode\GameObjects\WorldObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\WorldObjects\Crate.cpp">
+      <Filter>GameSourceCode\GameObjects\WorldObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\RespawnTrigger\Trigger.cpp">
+      <Filter>GameSourceCode\GameObjects\RespawnTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Player\Ball.cpp">
+      <Filter>GameSourceCode\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\WorldTerrain\WorldTerrainCreator.cpp">
+      <Filter>GameSourceCode\GameObjects\WorldTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\WorldObjects\WorldObjectsCreator.cpp">
+      <Filter>GameSourceCode\GameObjects\WorldObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\MainMenu\MainMenu.cpp">
+      <Filter>GameSourceCode\GameObjects\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\FinishTriggerMenu\FinishMenu.cpp">
+      <Filter>GameSourceCode\GameObjects\FinishTriggerMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\ScoreManager\ScoreManager.cpp">
+      <Filter>GameSourceCode\GameObjects\ScoreManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\CheckpointTrigger\CheckpointTrigger.cpp">
+      <Filter>GameSourceCode\GameObjects\CheckpointTrigger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="GameObjects\Camera\GameCamera.h">
+      <Filter>GameSourceCode\GameObjects\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Music\Music.h">
+      <Filter>GameSourceCode\GameObjects\Music</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\WorldTerrain\Terrain.h">
+      <Filter>GameSourceCode\GameObjects\WorldTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\WorldObjects\Coin.h">
+      <Filter>GameSourceCode\GameObjects\WorldObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\WorldObjects\Crate.h">
+      <Filter>GameSourceCode\GameObjects\WorldObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\RespawnTrigger\Trigger.h">
+      <Filter>GameSourceCode\GameObjects\RespawnTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Player\Ball.h">
+      <Filter>GameSourceCode\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\WorldTerrain\WorldTerrainCreator.h">
+      <Filter>GameSourceCode\GameObjects\WorldTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\WorldObjects\WorldObjectsCreator.h">
+      <Filter>GameSourceCode\GameObjects\WorldObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\MainMenu\MainMenu.h">
+      <Filter>GameSourceCode\GameObjects\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\FinishTriggerMenu\FinishMenu.h">
+      <Filter>GameSourceCode\GameObjects\FinishTriggerMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\ScoreManager\ScoreManager.h">
+      <Filter>GameSourceCode\GameObjects\ScoreManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\CheckpointTrigger\CheckpointTrigger.h">
+      <Filter>GameSourceCode\GameObjects\CheckpointTrigger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Games.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\assets\game_icon\crate_icon.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

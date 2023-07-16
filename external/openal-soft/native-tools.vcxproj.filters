@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\ScrapEngine\external\openal-soft\CMakeFiles\1ee54e5bb4fdef3bc1532e36556ac09d\bin2h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ScrapEngine\external\openal-soft\CMakeFiles\b36da8fc9d8deef727352ba04422accc\native-tools.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ScrapEngine\external\openal-soft\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\ScrapEngine\external\openal-soft\CMakeFiles\native-tools" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{446AB2D6-6CBE-3656-8C5A-78B0877E4DAA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

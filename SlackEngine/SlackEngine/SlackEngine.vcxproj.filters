@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{8414f8bd-343d-4102-a7d6-0f5f7095eb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager">
+      <UniqueIdentifier>{6e2f03b6-706e-4602-a89a-04f6107c5cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering">
+      <UniqueIdentifier>{7142e321-f77e-47be-8173-452991066d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Debug">
+      <UniqueIdentifier>{d8b3ba21-3ea6-43db-8bf6-37eaf800eb9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Window">
+      <UniqueIdentifier>{df1ed85a-7d58-4862-89da-c5fdb1f578d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Instance">
+      <UniqueIdentifier>{f6c16837-ff3e-4212-bd0d-35036bbce15f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Device">
+      <UniqueIdentifier>{1b1e9204-8d10-4621-9534-be57445051b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Queue">
+      <UniqueIdentifier>{52ba1c98-9095-4306-8b9b-615d25814b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\SwapChain">
+      <UniqueIdentifier>{526430de-4b22-4908-ab36-18cda90762ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Pipeline">
+      <UniqueIdentifier>{b5399632-51c7-46af-ac5d-4b1bf2708164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Shader">
+      <UniqueIdentifier>{69d9cb52-f829-479c-8ca9-62f3d0693d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\RenderPass">
+      <UniqueIdentifier>{cef7e13a-3aa7-4ed1-bf61-fff68bc2ab64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer">
+      <UniqueIdentifier>{23542afa-b170-4efb-b4c1-17e5d137e7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Semaphores">
+      <UniqueIdentifier>{716c604c-d45d-4842-a4f1-9d83fed85d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Base">
+      <UniqueIdentifier>{e3c1406c-4763-4fee-a57c-42fcd2be6aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Memory">
+      <UniqueIdentifier>{432dd445-8b65-41b0-81da-3219e42b8fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Descriptor">
+      <UniqueIdentifier>{d309b4e1-6351-4f01-896d-69a2810af592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Texture">
+      <UniqueIdentifier>{f88ea798-eb41-4284-9c39-f93095eb67d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\DepthResources">
+      <UniqueIdentifier>{4b2fb98a-0f66-4d1b-bcac-2fbe8d15d20e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Model">
+      <UniqueIdentifier>{b0df1695-167b-47ab-a9bc-229352c00980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\External">
+      <UniqueIdentifier>{71f67bf8-7ef1-46a8-a234-5e6ec0cccb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Manager">
+      <UniqueIdentifier>{1994db62-631b-47b0-8e51-f971caab2bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore">
+      <UniqueIdentifier>{4b228d58-4825-43cb-a21e-c5b95226d9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components">
+      <UniqueIdentifier>{03ff07d4-2e0f-464b-bbd9-e46b4ff9f11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\GameObject">
+      <UniqueIdentifier>{7404bbe4-8728-4702-a473-c172eada490d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Manager">
+      <UniqueIdentifier>{7cbf16de-432c-4588-80d1-cc41c4348676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{74d5970c-b515-473c-907c-72216277d9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input\Manager">
+      <UniqueIdentifier>{f6932fd1-e7ef-44a5-9ee9-0f029384da08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility">
+      <UniqueIdentifier>{9ac5a011-de22-42f8-b2d2-964ab20d20b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components\MeshComponent">
+      <UniqueIdentifier>{b90411e5-6a40-4da7-a47d-85db5ad7abe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components\Manager">
+      <UniqueIdentifier>{d43e6fa8-af17-42fe-9d55-4b6cea336900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Camera">
+      <UniqueIdentifier>{07ca6137-0264-48b0-a4dc-0387193119aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\ValidationLayers">
+      <UniqueIdentifier>{58c483d9-4579-4979-8acf-e3e149e4991c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Scene">
+      <UniqueIdentifier>{734a6ac2-768b-46c2-b5d1-5b8746fad671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\CommandBuffer">
+      <UniqueIdentifier>{94356326-907d-484e-a70a-67c068a57b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\FrameBuffer">
+      <UniqueIdentifier>{0785b2b3-136e-4a81-a899-617037e8e24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\IndexBuffer">
+      <UniqueIdentifier>{67c9bd6f-0cea-4607-bbcf-1af4a8718541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\StagingBuffer">
+      <UniqueIdentifier>{bc57663c-3259-47cc-86ed-f75a6c415257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\UniformBuffer">
+      <UniqueIdentifier>{20539712-5f1c-4106-a2bd-f0f64d7477bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\VertexBuffer">
+      <UniqueIdentifier>{9aea26f4-8672-4846-b2af-d586e192b452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Math">
+      <UniqueIdentifier>{2a49310a-4443-4312-9738-651387ed1ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Math\Transform">
+      <UniqueIdentifier>{c71f1553-21a8-4bec-9cb8-0f9dbd4bda38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Math\Vector">
+      <UniqueIdentifier>{d94957ee-9ec9-4f78-9274-4689b4e0233c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Math\Quaternion">
+      <UniqueIdentifier>{d1c36867-c55e-4582-b82b-9f474efef16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\BufferContainer">
+      <UniqueIdentifier>{43a528ad-b221-4002-8928-d1c89d932fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\BufferContainer\IndicesBufferContainer">
+      <UniqueIdentifier>{b6cd12ba-fa3e-4a5a-b3d9-9fd83579aaaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\BufferContainer\VertexBufferContainer">
+      <UniqueIdentifier>{d118180c-194f-4611-afb4-c1e299d63326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Model\Material">
+      <UniqueIdentifier>{a52affdb-5fc6-4593-a48b-fa26be82d184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\StagingBuffer\ImageStagingBuffer">
+      <UniqueIdentifier>{87365126-4165-4462-9b89-aabd7f2a1871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\StagingBuffer\IndicesStagingBuffer">
+      <UniqueIdentifier>{985b0e5b-dcc1-42e3-b548-f6ee5c0e4988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\StagingBuffer\VertexStagingBuffer">
+      <UniqueIdentifier>{e3d3a890-c4a3-4c7d-bd19-724c64622d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Model\Material\SkyboxMaterial">
+      <UniqueIdentifier>{2687d768-3e60-4e69-94ae-ca326cb02243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Model\Material\SimpleMaterial">
+      <UniqueIdentifier>{53653c80-2fd7-4de2-a706-2faa19018c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Model\MeshInstance">
+      <UniqueIdentifier>{4458a7e6-f4e7-44c6-b560-972fb624298f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Model\Model">
+      <UniqueIdentifier>{084fb63f-fe22-42bd-aa76-ff39bc45bec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Model\Model\Mesh">
+      <UniqueIdentifier>{59d08ce2-3524-499e-9e35-2fe8050ca74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Model\SkyboxInstance">
+      <UniqueIdentifier>{d9671f82-4c7c-413c-bc5d-e0839c01edd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Pipeline\SkyboxPipeline">
+      <UniqueIdentifier>{536fd79e-bc9c-462d-b9a2-666d2fbe9a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Pipeline\StandardPipeline">
+      <UniqueIdentifier>{bd3a0dba-3b69-427d-8b6d-931515cbf8ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Queue\GraphicsQueue">
+      <UniqueIdentifier>{bfc1869e-9f09-4a58-86b3-92d09ad692f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Queue\PresentationQueue">
+      <UniqueIdentifier>{6f22bebe-4913-4568-af38-311d1b0ddf9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Texture\ColorResources">
+      <UniqueIdentifier>{6567112b-5a1d-4921-ad4c-b205d06e58ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Texture\Texture">
+      <UniqueIdentifier>{56051b60-8c76-43f4-a81f-8f52db3ca1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Texture\TextureImageView">
+      <UniqueIdentifier>{24c016cf-b994-4009-8dd1-31b361917b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Texture\TextureSampler">
+      <UniqueIdentifier>{997ae25b-0022-4508-9383-c063412c0ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Texture\Texture\SkyboxTexture">
+      <UniqueIdentifier>{d24e6ddf-dcd9-4e3e-b9cd-dab3450e0aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Texture\Texture\StandardTexture">
+      <UniqueIdentifier>{7a6f7939-800b-473d-84b2-47f521748348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Model\ObjectPool">
+      <UniqueIdentifier>{495eb222-dc12-4efd-8443-e5fd2f88c2d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Model\ObjectPool\VulkanModelPool">
+      <UniqueIdentifier>{22be1ba3-c07a-4bcf-b645-b6ec813ab584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Model\ObjectPool\VulkanModelBuffersPool">
+      <UniqueIdentifier>{ec0e3d1d-5205-4368-9228-b45eb585b2d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Model\ObjectPool\VulkanSimpleMaterialPool">
+      <UniqueIdentifier>{c1a5df19-36e4-42d3-a33a-4cf38b44fc66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics">
+      <UniqueIdentifier>{4702e2e4-2871-4a2f-865a-f253fa69ceb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\CollisionShape">
+      <UniqueIdentifier>{24cebe07-58c3-425b-aaeb-7ac96eaf8c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\CollisionShape\BoxShape">
+      <UniqueIdentifier>{721701d8-1203-40b4-b62d-42533ca953ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\Manager">
+      <UniqueIdentifier>{874324aa-f50f-44c6-89a0-81ac96e60c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\CollisionShape\SphereShape">
+      <UniqueIdentifier>{7a478368-f725-4c87-863e-a9dd19052ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\CollisionShape\CapsuleShape">
+      <UniqueIdentifier>{7d4d00dd-966c-41b2-8892-c2020990c433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\CollisionWorld">
+      <UniqueIdentifier>{3269aaff-f592-4e17-bc24-92f9924a4e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\CollisionWorld\DynamicsWorld">
+      <UniqueIdentifier>{09c7f0b9-7648-4bde-bd60-bef61f6ad38e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\CollisionBody">
+      <UniqueIdentifier>{11de413a-c8c0-4929-b3a7-4f71a3e35aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\RigidBody">
+      <UniqueIdentifier>{59388314-eade-4e34-b773-6906cc951e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components\RigidBodyComponent">
+      <UniqueIdentifier>{f92ac433-ccbb-4013-9548-b1ff97104bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components\RigidBodyComponent\BoxRigidBodyComponent">
+      <UniqueIdentifier>{2a467c2d-5f71-4a7f-981d-31669bebc114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components\RigidBodyComponent\CapsuleRigidBodyComponent">
+      <UniqueIdentifier>{0a4c4a4d-4444-4516-8f16-b8893edab49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components\RigidBodyComponent\SphereRigidBodyComponent">
+      <UniqueIdentifier>{2dfcddef-16c1-4315-a4f4-fba4e657e13c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components\TriggerComponent">
+      <UniqueIdentifier>{ce5ca7a6-e7fc-4820-a9d7-d4bd194c94d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components\TriggerComponent\BoxTriggerComponent">
+      <UniqueIdentifier>{06f0350a-5851-4310-ae28-a56fa8ecc6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\CommandPool">
+      <UniqueIdentifier>{b7bcb601-9970-4774-a2cc-8824f33ebfa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\CommandPool\Singleton">
+      <UniqueIdentifier>{df2ba8fa-647e-4c47-8e17-657d5ec5e6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\CommandPool\Standard">
+      <UniqueIdentifier>{1ec1fa25-5548-4756-ac2b-ee242e2b0b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Audio">
+      <UniqueIdentifier>{ae2e3b9e-931c-4e14-ba85-e45f02cb9e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Audio\Device">
+      <UniqueIdentifier>{8cd288e7-f257-4380-b6a0-e3bfaa4d7423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Audio\Manager">
+      <UniqueIdentifier>{ce780bf8-b79c-4667-b6e2-a230d7ee40b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Audio\Context">
+      <UniqueIdentifier>{b181c1ce-e91e-48ce-858d-ab31ced5b79e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Audio\Buffer">
+      <UniqueIdentifier>{4c502a01-4888-4987-b14a-abec82083726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Audio\Listener">
+      <UniqueIdentifier>{4ae8f4b9-ad1f-43e6-a928-5cdbfac94761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Audio\Source">
+      <UniqueIdentifier>{4f2266ac-6005-4f67-8f28-22324682b792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Audio\Buffer\Wav">
+      <UniqueIdentifier>{382215c7-0a5a-49d2-9d6c-c6c7c689b46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components\AudioComponent">
+      <UniqueIdentifier>{8c553e94-f36e-412b-bb53-322ddcf4c9c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components\AudioComponent\2dAudioComponent">
+      <UniqueIdentifier>{b246769a-4a7d-4500-abf1-f65b497a6054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components\AudioComponent\3dAudioComponent">
+      <UniqueIdentifier>{c17ef7df-d3f6-45d4-be8d-c1a58e27eafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\External\imgui">
+      <UniqueIdentifier>{d567bca8-3433-428e-ad9d-ec29eca444ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Gui">
+      <UniqueIdentifier>{512ffe86-251c-449c-a36f-be76664e9ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Descriptor\DescriptorSet">
+      <UniqueIdentifier>{5b962464-cc5f-4659-a4c7-45267055c472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Descriptor\DescriptorSet\GuiDescriptorSet">
+      <UniqueIdentifier>{575f84b8-6d55-4234-a439-872c427c871b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Descriptor\DescriptorPool">
+      <UniqueIdentifier>{9370ab92-b2db-42d9-9f60-64aa1331c7fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Descriptor\DescriptorSet\StandardDescriptorSet">
+      <UniqueIdentifier>{75c3fae8-99c2-4b50-af50-ca8baa173d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Pipeline\GuiPipeline">
+      <UniqueIdentifier>{c8df292f-77b0-4fa6-8f94-95f84ea333fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\GenericBuffer">
+      <UniqueIdentifier>{940c2eac-c69d-460c-9aae-92d44d4a5293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Descriptor\DescriptorPool\StandardDescriptorPool">
+      <UniqueIdentifier>{312e480b-a386-4304-86aa-004c9f78c216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Descriptor\DescriptorPool\GuiDescriptorPool">
+      <UniqueIdentifier>{45fbc751-8ee1-462b-a018-7c18351ba7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input\Gui">
+      <UniqueIdentifier>{d7385f92-ac6b-4585-89c5-65a530b0b5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\RenderPass\StandardRenderPass">
+      <UniqueIdentifier>{34dca17b-26ef-48ce-b36a-1b444afab4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\RenderPass\GuiRenderPass">
+      <UniqueIdentifier>{c25212d7-3e49-4e3a-89b1-08cd967fb4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\CommandBuffer\GuiCommandBuffer">
+      <UniqueIdentifier>{1f679832-aaac-43c7-b770-b3d319a68436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\CommandBuffer\StandardCommandBuffer">
+      <UniqueIdentifier>{0481c4ee-6f77-4bc2-87f9-e85d30ea3683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\Raycast">
+      <UniqueIdentifier>{bb35a352-71d5-4ae9-aae2-ad4b5432cdbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\Raycast\SingleRaycast">
+      <UniqueIdentifier>{7ae6914d-640c-40e8-8f88-67cac3faa2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\Utils">
+      <UniqueIdentifier>{2f263215-9a88-4fd2-b463-6dc088c5dec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\Raycast\MultiRaycast">
+      <UniqueIdentifier>{64126ffb-3124-4a5b-b8a5-1b58182b5da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LogicCore\Components\CameraComponent">
+      <UniqueIdentifier>{05cd57cc-9333-4299-a33e-b307a70313de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Shadowmapping">
+      <UniqueIdentifier>{a9e3a928-19c0-4135-9456-f5194d7b8eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Shadowmapping\Standard">
+      <UniqueIdentifier>{471cc78a-3884-4e79-9f46-cdb9b9a3cc17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\RenderPass\ShadowmappingRenderPass">
+      <UniqueIdentifier>{12efe8a7-c3fd-4df4-a83d-51e48a98768c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\FrameBuffer\StandardFrameBuffer">
+      <UniqueIdentifier>{ea8c8e4a-7520-4bf5-a06a-3d357a8a6f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\FrameBuffer\ShadowmappingFrameBuffer">
+      <UniqueIdentifier>{a16b2d6d-bd04-4837-8cea-e7248d9223f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Descriptor\DescriptorSet\ShadowmappingDescriptorSet">
+      <UniqueIdentifier>{9bc2b027-1f4c-404c-a5e6-0c687157f9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\UniformBuffer\StandardUniformBuffer">
+      <UniqueIdentifier>{60dea6fb-4774-4917-a29d-47b17f670589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\UniformBuffer\ShadowmappingUniformBuffer">
+      <UniqueIdentifier>{b520435e-8d9f-4dcc-a8f9-5467d1239d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Pipeline\ShadowmappingPipeline">
+      <UniqueIdentifier>{a78993c2-a7ef-48d5-af92-df933d861da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Buffer\UniformBuffer\SkyboxUniformBuffer">
+      <UniqueIdentifier>{dc99e110-70c2-4481-b9ff-4563535f0f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Rendering\Descriptor\DescriptorSet\SkyboxDescriptorSet">
+      <UniqueIdentifier>{48ee1541-7133-4923-8020-44dcb99c9178}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Manager\EngineManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Debug\DebugLog.cpp">
+      <Filter>Engine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Window\GameWindow.cpp">
+      <Filter>Engine\Rendering\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Window\VulkanSurface.cpp">
+      <Filter>Engine\Rendering\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Shader\ShaderManager.cpp">
+      <Filter>Engine\Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\DepthResources\VulkanDepthResources.cpp">
+      <Filter>Engine\Rendering\DepthResources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Manager\RenderManager.cpp">
+      <Filter>Engine\Rendering\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\SObject.cpp">
+      <Filter>Engine\LogicCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\GameObject\SGameObject.cpp">
+      <Filter>Engine\LogicCore\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Manager\LogicManager.cpp">
+      <Filter>Engine\LogicCore\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\SComponent.cpp">
+      <Filter>Engine\LogicCore\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input\Manager\InputManager.cpp">
+      <Filter>Engine\Input\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Utility\UsefulMethods.cpp">
+      <Filter>Engine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\MeshComponent\MeshComponent.cpp">
+      <Filter>Engine\LogicCore\Components\MeshComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Manager\RenderManagerView.cpp">
+      <Filter>Engine\Rendering\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Manager\LogicManagerView.cpp">
+      <Filter>Engine\LogicCore\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\Manager\ComponentsManager.cpp">
+      <Filter>Engine\LogicCore\Components\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Camera\Camera.cpp">
+      <Filter>Engine\Rendering\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\ValidationLayers\VulkanValidationLayers.cpp">
+      <Filter>Engine\Rendering\ValidationLayers</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Scene\SceneManager.cpp">
+      <Filter>Engine\LogicCore\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Math\Vector\SVector3.cpp">
+      <Filter>Engine\LogicCore\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Math\Transform\STransform.cpp">
+      <Filter>Engine\LogicCore\Math\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Math\Quaternion\SQuaternion.cpp">
+      <Filter>Engine\LogicCore\Math\Quaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Model\Material\SkyboxMaterial\SkyboxMaterial.cpp">
+      <Filter>Engine\Rendering\Model\Material\SkyboxMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Model\Material\SimpleMaterial\SimpleMaterial.cpp">
+      <Filter>Engine\Rendering\Model\Material\SimpleMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Model\Material\BasicMaterial.cpp">
+      <Filter>Engine\Rendering\Model\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Model\MeshInstance\VulkanMeshInstance.cpp">
+      <Filter>Engine\Rendering\Model\MeshInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Model\Model\Mesh\Mesh.cpp">
+      <Filter>Engine\Rendering\Model\Model\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Model\Model\VulkanModel.cpp">
+      <Filter>Engine\Rendering\Model\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Model\SkyboxInstance\VulkanSkyboxInstance.cpp">
+      <Filter>Engine\Rendering\Model\SkyboxInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Model\ObjectPool\VulkanModelPool\VulkanModelPool.cpp">
+      <Filter>Engine\Rendering\Model\ObjectPool\VulkanModelPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Model\ObjectPool\VulkanModelBuffersPool\VulkanModelBuffersPool.cpp">
+      <Filter>Engine\Rendering\Model\ObjectPool\VulkanModelBuffersPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Model\ObjectPool\VulkanSimpleMaterialPool\VulkanSimpleMaterialPool.cpp">
+      <Filter>Engine\Rendering\Model\ObjectPool\VulkanSimpleMaterialPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\CollisionShape\BoxShape\BoxShape.cpp">
+      <Filter>Engine\Physics\CollisionShape\BoxShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\Manager\PhysicsManager.cpp">
+      <Filter>Engine\Physics\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\CollisionShape\CollisionShape.cpp">
+      <Filter>Engine\Physics\CollisionShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\CollisionShape\SphereShape\SphereShape.cpp">
+      <Filter>Engine\Physics\CollisionShape\SphereShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\CollisionShape\CapsuleShape\CapsuleShape.cpp">
+      <Filter>Engine\Physics\CollisionShape\CapsuleShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\CollisionWorld\DynamicsWorld\DiscreteDynamicsWorld.cpp">
+      <Filter>Engine\Physics\CollisionWorld\DynamicsWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\CollisionBody\CollisionBody.cpp">
+      <Filter>Engine\Physics\CollisionBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\RigidBody\RigidBody.cpp">
+      <Filter>Engine\Physics\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\RigidBodyComponent\RigidBodyComponent.cpp">
+      <Filter>Engine\LogicCore\Components\RigidBodyComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\RigidBodyComponent\BoxRigidBodyComponent\BoxRigidBodyComponent.cpp">
+      <Filter>Engine\LogicCore\Components\RigidBodyComponent\BoxRigidBodyComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\RigidBodyComponent\CapsuleRigidBodyComponent\CapsuleRigidBodyComponent.cpp">
+      <Filter>Engine\LogicCore\Components\RigidBodyComponent\CapsuleRigidBodyComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\RigidBodyComponent\SphereRigidBodyComponent\SphereRigidBodyComponent.cpp">
+      <Filter>Engine\LogicCore\Components\RigidBodyComponent\SphereRigidBodyComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\TriggerComponent\BoxTriggerComponent\BoxTriggerComponent.cpp">
+      <Filter>Engine\LogicCore\Components\TriggerComponent\BoxTriggerComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\TriggerComponent\TriggerComponent.cpp">
+      <Filter>Engine\LogicCore\Components\TriggerComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Camera\CameraFrustum.cpp">
+      <Filter>Engine\Rendering\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio\Device\AudioDevice.cpp">
+      <Filter>Engine\Audio\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio\Manager\AudioManager.cpp">
+      <Filter>Engine\Audio\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio\Context\AudioContext.cpp">
+      <Filter>Engine\Audio\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio\Buffer\AudioBuffer.cpp">
+      <Filter>Engine\Audio\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio\Listener\AudioListener.cpp">
+      <Filter>Engine\Audio\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio\Source\AudioSource.cpp">
+      <Filter>Engine\Audio\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio\Buffer\Wav\WavAudioBuffer.cpp">
+      <Filter>Engine\Audio\Buffer\Wav</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\AudioComponent\AudioComponent.cpp">
+      <Filter>Engine\LogicCore\Components\AudioComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\AudioComponent\2dAudioComponent\2DAudioComponent.cpp">
+      <Filter>Engine\LogicCore\Components\AudioComponent\2dAudioComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\AudioComponent\3dAudioComponent\3DAudioComponent.cpp">
+      <Filter>Engine\LogicCore\Components\AudioComponent\3dAudioComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui.cpp">
+      <Filter>Engine\External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_demo.cpp">
+      <Filter>Engine\External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_draw.cpp">
+      <Filter>Engine\External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_widgets.cpp">
+      <Filter>Engine\External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Gui\VulkanImGui.cpp">
+      <Filter>Engine\Rendering\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input\Gui\GuiInput.cpp">
+      <Filter>Engine\Input\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\Raycast\SingleRaycast\SingleRaycast.cpp">
+      <Filter>Engine\Physics\Raycast\SingleRaycast</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\Utils\ConversionUtils.cpp">
+      <Filter>Engine\Physics\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\Raycast\RaycastResultInfo.cpp">
+      <Filter>Engine\Physics\Raycast</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\Raycast\MultiRaycast\MultiRaycast.cpp">
+      <Filter>Engine\Physics\Raycast\MultiRaycast</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LogicCore\Components\CameraComponent\CameraComponent.cpp">
+      <Filter>Engine\LogicCore\Components\CameraComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\Shadowmapping\Standard\StandardShadowmapping.cpp">
+      <Filter>Engine\Rendering\Shadowmapping\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\BaseBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\BufferContainer\BufferContainer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\BufferContainer\IndicesBufferContainer\IndicesBufferContainer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\BufferContainer\VertexBufferContainer\VertexBufferContainer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\CommandBuffer\BaseCommandBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\CommandBuffer\GuiCommandBuffer\GuiCommandBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\CommandBuffer\StandardCommandBuffer\StandardCommandBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\BaseFrameBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\ShadowmappingFrameBuffer\ShadowmappingFrameBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\ShadowmappingFrameBuffer\ShadowmappingFrameBufferAttachment.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\StandardFrameBuffer\StandardFrameBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\GenericBuffer\GenericBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\IndexBuffer\IndexBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\BaseStagingBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\ImageStagingBuffer\ImageStagingBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\IndicesStagingBuffer\IndicesStagingBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\VertexStagingBuffer\VertexStagingBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\ColorResources\VulkanColorResources.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\TextureImageView\TextureImageView.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\TextureSampler\TextureSampler.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\BaseTexture.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\SkyboxTexture\SkyboxStagingTexture.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\SkyboxTexture\SkyboxTexture.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\StandardTexture\StandardTexture.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\BaseUniformBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\ShadowmappingUniformBuffer\ShadowmappingUniformBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\SkyboxUniformBuffer\SkyboxUniformBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\StandardUniformBuffer\StandardUniformBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Buffer\VertexBuffer\VertexBuffer.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\CommandPool\Singleton\SingletonCommandPool.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\CommandPool\Standard\StandardCommandPool.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\CommandPool\VulkanCommandPool.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorPool\BaseDescriptorPool.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorPool\GuiDescriptorPool\GuiDescriptorPool.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorPool\StandardDescriptorPool\StandardDescriptorPool.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\BaseDescriptorSet.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\GuiDescriptorSet\GuiDescriptorSet.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\ShadowmappingDescriptorSet\ShadowmappingDescriptorSet.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\SkyboxDescriptorSet\SkyboxDescriptorSet.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\StandardDescriptorSet\StandardDescriptorSet.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Device\VulkanDevice.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Instance\VukanInstance.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Memory\VulkanMemoryAllocator.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Pipeline\BaseVulkanGraphicsPipeline.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Pipeline\GuiPipeline\GuiVulkanGraphicsPipeline.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Pipeline\ShadowmappingPipeline\ShadowmappingPipeline.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Pipeline\SkyboxPipeline\SkyboxVulkanGraphicsPipeline.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Pipeline\StandardPipeline\StandardVulkanGraphicsPipeline.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Queue\BaseQueue.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Queue\GraphicsQueue\GraphicsQueue.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Queue\PresentationQueue\PresentQueue.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\RenderPass\BaseRenderPass.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\RenderPass\GuiRenderPass\GuiRenderPass.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\RenderPass\ShadowmappingRenderPass\ShadowmappingRenderPass.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\RenderPass\StandardRenderPass\StandardRenderPass.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Semaphores\VulkanSemaphoresManager.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\SwapChain\VulkanImageView.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\SwapChain\VulkanSwapChain.cpp" />
+    <ClCompile Include="Engine\Rendering\VulkanBase\Vertex.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Manager\EngineManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Debug\DebugLog.h">
+      <Filter>Engine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Window\GameWindow.h">
+      <Filter>Engine\Rendering\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Window\VulkanSurface.h">
+      <Filter>Engine\Rendering\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Shader\ShaderManager.h">
+      <Filter>Engine\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\DepthResources\VulkanDepthResources.h">
+      <Filter>Engine\Rendering\DepthResources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\stb\stb_image.h">
+      <Filter>Engine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Manager\RenderManager.h">
+      <Filter>Engine\Rendering\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\SObject.h">
+      <Filter>Engine\LogicCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\GameObject\SGameObject.h">
+      <Filter>Engine\LogicCore\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Manager\LogicManager.h">
+      <Filter>Engine\LogicCore\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\SComponent.h">
+      <Filter>Engine\LogicCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\Manager\InputManager.h">
+      <Filter>Engine\Input\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utility\UsefulMethods.h">
+      <Filter>Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utility\UsefulTypes.h">
+      <Filter>Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\KeyboardKeys.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\MeshComponent\MeshComponent.h">
+      <Filter>Engine\LogicCore\Components\MeshComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Manager\RenderManagerView.h">
+      <Filter>Engine\Rendering\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Manager\LogicManagerView.h">
+      <Filter>Engine\LogicCore\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\Manager\ComponentsManager.h">
+      <Filter>Engine\LogicCore\Components\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Camera\Camera.h">
+      <Filter>Engine\Rendering\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\ValidationLayers\VulkanValidationLayers.h">
+      <Filter>Engine\Rendering\ValidationLayers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Scene\SceneManager.h">
+      <Filter>Engine\LogicCore\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\MouseButtons.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Math\Vector\SVector3.h">
+      <Filter>Engine\LogicCore\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Math\Transform\STransform.h">
+      <Filter>Engine\LogicCore\Math\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Math\Quaternion\SQuaternion.h">
+      <Filter>Engine\LogicCore\Math\Quaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Model\Material\SkyboxMaterial\SkyboxMaterial.h">
+      <Filter>Engine\Rendering\Model\Material\SkyboxMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Model\Material\SimpleMaterial\SimpleMaterial.h">
+      <Filter>Engine\Rendering\Model\Material\SimpleMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Model\Material\BasicMaterial.h">
+      <Filter>Engine\Rendering\Model\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Model\MeshInstance\VulkanMeshInstance.h">
+      <Filter>Engine\Rendering\Model\MeshInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Model\Model\Mesh\Mesh.h">
+      <Filter>Engine\Rendering\Model\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Model\Model\VulkanModel.h">
+      <Filter>Engine\Rendering\Model\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Model\SkyboxInstance\VulkanSkyboxInstance.h">
+      <Filter>Engine\Rendering\Model\SkyboxInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Model\ObjectPool\VulkanModelPool\VulkanModelPool.h">
+      <Filter>Engine\Rendering\Model\ObjectPool\VulkanModelPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Model\ObjectPool\VulkanModelBuffersPool\VulkanModelBuffersPool.h">
+      <Filter>Engine\Rendering\Model\ObjectPool\VulkanModelBuffersPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Model\ObjectPool\VulkanSimpleMaterialPool\VulkanSimpleMaterialPool.h">
+      <Filter>Engine\Rendering\Model\ObjectPool\VulkanSimpleMaterialPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\CollisionShape\BoxShape\BoxShape.h">
+      <Filter>Engine\Physics\CollisionShape\BoxShape</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\Manager\PhysicsManager.h">
+      <Filter>Engine\Physics\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\CollisionShape\CollisionShape.h">
+      <Filter>Engine\Physics\CollisionShape</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\PhysicsInclude.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\CollisionShape\SphereShape\SphereShape.h">
+      <Filter>Engine\Physics\CollisionShape\SphereShape</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\CollisionShape\CapsuleShape\CapsuleShape.h">
+      <Filter>Engine\Physics\CollisionShape\CapsuleShape</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\CollisionWorld\DynamicsWorld\DiscreteDynamicsWorld.h">
+      <Filter>Engine\Physics\CollisionWorld\DynamicsWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\CollisionBody\CollisionBody.h">
+      <Filter>Engine\Physics\CollisionBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\RigidBody\RigidBody.h">
+      <Filter>Engine\Physics\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\RigidBodyComponent\RigidBodyComponent.h">
+      <Filter>Engine\LogicCore\Components\RigidBodyComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\RigidBodyComponent\BoxRigidBodyComponent\BoxRigidBodyComponent.h">
+      <Filter>Engine\LogicCore\Components\RigidBodyComponent\BoxRigidBodyComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\RigidBodyComponent\CapsuleRigidBodyComponent\CapsuleRigidBodyComponent.h">
+      <Filter>Engine\LogicCore\Components\RigidBodyComponent\CapsuleRigidBodyComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\RigidBodyComponent\SphereRigidBodyComponent\SphereRigidBodyComponent.h">
+      <Filter>Engine\LogicCore\Components\RigidBodyComponent\SphereRigidBodyComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\TriggerComponent\BoxTriggerComponent\BoxTriggerComponent.h">
+      <Filter>Engine\LogicCore\Components\TriggerComponent\BoxTriggerComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\TriggerComponent\TriggerComponent.h">
+      <Filter>Engine\LogicCore\Components\TriggerComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Camera\CameraFrustum.h">
+      <Filter>Engine\Rendering\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio\Device\AudioDevice.h">
+      <Filter>Engine\Audio\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio\Manager\AudioManager.h">
+      <Filter>Engine\Audio\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio\Context\AudioContext.h">
+      <Filter>Engine\Audio\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio\Buffer\AudioBuffer.h">
+      <Filter>Engine\Audio\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio\Listener\AudioListener.h">
+      <Filter>Engine\Audio\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio\Source\AudioSource.h">
+      <Filter>Engine\Audio\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio\Buffer\Wav\WavAudioBuffer.h">
+      <Filter>Engine\Audio\Buffer\Wav</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\AudioComponent\AudioComponent.h">
+      <Filter>Engine\LogicCore\Components\AudioComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\AudioComponent\2dAudioComponent\2DAudioComponent.h">
+      <Filter>Engine\LogicCore\Components\AudioComponent\2dAudioComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\AudioComponent\3dAudioComponent\3DAudioComponent.h">
+      <Filter>Engine\LogicCore\Components\AudioComponent\3dAudioComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imgui.h">
+      <Filter>Engine\External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imgui_internal.h">
+      <Filter>Engine\External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imstb_rectpack.h">
+      <Filter>Engine\External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imstb_textedit.h">
+      <Filter>Engine\External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imstb_truetype.h">
+      <Filter>Engine\External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Gui\VulkanImGui.h">
+      <Filter>Engine\Rendering\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\Gui\GuiInput.h">
+      <Filter>Engine\Input\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\Raycast\SingleRaycast\SingleRaycast.h">
+      <Filter>Engine\Physics\Raycast\SingleRaycast</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\Utils\ConversionUtils.h">
+      <Filter>Engine\Physics\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\Raycast\RaycastResultInfo.h">
+      <Filter>Engine\Physics\Raycast</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\Raycast\MultiRaycast\MultiRaycast.h">
+      <Filter>Engine\Physics\Raycast\MultiRaycast</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LogicCore\Components\CameraComponent\CameraComponent.h">
+      <Filter>Engine\LogicCore\Components\CameraComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\VulkanInclude.h">
+      <Filter>Engine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\Shadowmapping\Standard\StandardShadowmapping.h">
+      <Filter>Engine\Rendering\Shadowmapping\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\BaseBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\BufferContainer\BufferContainer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\BufferContainer\IndicesBufferContainer\IndicesBufferContainer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\BufferContainer\VertexBufferContainer\VertexBufferContainer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\CommandBuffer\BaseCommandBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\CommandBuffer\GuiCommandBuffer\GuiCommandBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\CommandBuffer\StandardCommandBuffer\StandardCommandBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\BaseFrameBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\ShadowmappingFrameBuffer\ShadowmappingFrameBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\ShadowmappingFrameBuffer\ShadowmappingFrameBufferAttachment.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\FrameBuffer\StandardFrameBuffer\StandardFrameBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\GenericBuffer\GenericBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\IndexBuffer\IndexBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\BaseStagingBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\ImageStagingBuffer\ImageStagingBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\IndicesStagingBuffer\IndicesStagingBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\StagingBuffer\VertexStagingBuffer\VertexStagingBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\ColorResources\VulkanColorResources.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\TextureImageView\TextureImageView.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\TextureSampler\TextureSampler.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\BaseTexture.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\SkyboxTexture\SkyboxStagingTexture.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\SkyboxTexture\SkyboxTexture.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\Texture\Texture\StandardTexture\StandardTexture.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\BaseUniformBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\ShadowmappingUniformBuffer\ShadowmappingUniformBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\SkyboxUniformBuffer\SkyboxUniformBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\UniformBuffer\StandardUniformBuffer\StandardUniformBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Buffer\VertexBuffer\VertexBuffer.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\CommandPool\Singleton\SingletonCommandPool.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\CommandPool\Standard\StandardCommandPool.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\CommandPool\VulkanCommandPool.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorPool\BaseDescriptorPool.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorPool\GuiDescriptorPool\GuiDescriptorPool.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorPool\StandardDescriptorPool\StandardDescriptorPool.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\BaseDescriptorSet.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\GuiDescriptorSet\GuiDescriptorSet.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\ShadowmappingDescriptorSet\ShadowmappingDescriptorSet.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\SkyboxDescriptorSet\SkyboxDescriptorSet.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Descriptor\DescriptorSet\StandardDescriptorSet\StandardDescriptorSet.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Device\VulkanDevice.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Instance\VukanInstance.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Memory\VulkanMemoryAllocator.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Pipeline\BaseVulkanGraphicsPipeline.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Pipeline\GuiPipeline\GuiVulkanGraphicsPipeline.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Pipeline\ShadowmappingPipeline\ShadowmappingPipeline.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Pipeline\SkyboxPipeline\SkyboxVulkanGraphicsPipeline.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Pipeline\StandardPipeline\StandardVulkanGraphicsPipeline.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Queue\BaseQueue.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Queue\GraphicsQueue\GraphicsQueue.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Queue\PresentationQueue\PresentQueue.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\RenderPass\BaseRenderPass.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\RenderPass\GuiRenderPass\GuiRenderPass.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\RenderPass\ShadowmappingRenderPass\ShadowmappingRenderPass.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\RenderPass\StandardRenderPass\StandardRenderPass.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Semaphores\VulkanSemaphoresManager.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\SwapChain\VulkanImageView.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\SwapChain\VulkanSwapChain.h" />
+    <ClInclude Include="Engine\Rendering\VulkanBase\Vertex.h" />
+  </ItemGroup>
+</Project>
