@@ -22,4 +22,11 @@ namespace SlackEngine
 		{
 		}
 	};
+
+	struct game_parameter_info
+	{
+		std::string vertexShader_path;
+		std::string PixelShader_path;
+		
+	};
 }

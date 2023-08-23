@@ -98,7 +98,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <AdditionalLibraryDirectories>$(SolutionDir)x64\Debug;$(SolutionDir)..\external\VulkanSDK\Lib;$(SolutionDir)..\external\glfw\build\src\Debug;$(SolutionDir)..\external\assimp\build\code\Debug;$(SolutionDir)..\external\reactphysics\build\lib\Debug;$(SolutionDir)..\external\openal-soft\build\Debug;$(SolutionDir)..\external\enkits\build\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>vulkan-1.lib;assimp-vc140-mt.lib;glfw3.lib;reactphysics3d.lib;enkiTS.lib;OpenAL32.lib;ScrapEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>vulkan-1.lib;assimp-vc140-mt.lib;glfw3.lib;reactphysics3d.lib;enkiTS.lib;OpenAL32.lib;SlackEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

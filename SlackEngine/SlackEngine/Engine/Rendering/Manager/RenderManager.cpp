@@ -283,10 +283,12 @@ void SlackEngine::Render::RenderManager::initialize_vulkan(const game_base_info*
 	
 	create_camera();
 	Debug::DebugLog::print_to_console_log("User View Camera created");
+	
 	//Shadowmapping
 	Debug::DebugLog::print_to_console_log("Creating StandardShadowmapping...");
 	shadowmapping_ = new StandardShadowmapping(vulkan_render_swap_chain_);
 	Debug::DebugLog::print_to_console_log("StandardShadowmapping initialized!");
+	
 	//Gui render
 	Debug::DebugLog::print_to_console_log("Creating gui render...");
 	initialize_gui(static_cast<float>(received_base_game_info->window_width),

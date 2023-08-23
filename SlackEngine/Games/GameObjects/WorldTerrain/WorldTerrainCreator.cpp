@@ -6,7 +6,7 @@ WorldTerrainCreator::WorldTerrainCreator(SlackEngine::Core::ComponentsManager* i
 	//Initial spawn platform
 	new Terrain(input_component_manager,
 	            SlackEngine::Core::SVector3(0, -20, 0),
-	            SlackEngine::Core::SVector3(25, 0.5f, 25));
+	            SlackEngine::Core::SVector3(60, 0.5f, 60));
 
 	//First corridor
 	new Terrain(input_component_manager,
@@ -44,24 +44,24 @@ WorldTerrainCreator::WorldTerrainCreator(SlackEngine::Core::ComponentsManager* i
 		SlackEngine::Core::SVector3(5, 0.5f, 25));
 
 	//Wall(s)
-	//Enable shadows for walls because they are visible
-	Terrain* wall1 = new Terrain(input_component_manager,
-		SlackEngine::Core::SVector3(435, -10, -400),
-		SlackEngine::Core::SVector3(2, 1.5f, 0.5f),
-		Terrain::color::green);
-	wall1->enable_shadows();
-
-	Terrain* wall2 = new Terrain(input_component_manager,
-		SlackEngine::Core::SVector3(465, -10, -350),
-		SlackEngine::Core::SVector3(2, 1.5f, 0.5f),
-		Terrain::color::green);
-	wall2->enable_shadows();
-
-	Terrain* wall3 = new Terrain(input_component_manager,
-		SlackEngine::Core::SVector3(450, -10, -300),
-		SlackEngine::Core::SVector3(2, 1.5f, 0.5f),
-		Terrain::color::green);
-	wall3->enable_shadows();
+	// //Enable shadows for walls because they are visible
+	// Terrain* wall1 = new Terrain(input_component_manager,
+	// 	SlackEngine::Core::SVector3(435, -10, -400),
+	// 	SlackEngine::Core::SVector3(2, 1.5f, 0.5f),
+	// 	Terrain::color::green);
+	// wall1->enable_shadows();
+	//
+	// Terrain* wall2 = new Terrain(input_component_manager,
+	// 	SlackEngine::Core::SVector3(465, -10, -350),
+	// 	SlackEngine::Core::SVector3(2, 1.5f, 0.5f),
+	// 	Terrain::color::green);
+	// wall2->enable_shadows();
+	//
+	// Terrain* wall3 = new Terrain(input_component_manager,
+	// 	SlackEngine::Core::SVector3(450, -10, -300),
+	// 	SlackEngine::Core::SVector3(2, 1.5f, 0.5f),
+	// 	Terrain::color::green);
+	// wall3->enable_shadows();
 
 	//Left terrain
 	new Terrain(input_component_manager,

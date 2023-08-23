@@ -52,6 +52,7 @@ namespace SlackEngine
 			float get_light_fov() const;
 			void set_light_fov(float fov);
 			static vk::Format get_depth_format();
+			std::string ShadowmapPath="../assets/shader/compiled_shaders/offscreen.vert.spv";
 		private:
 			// Get the best possible depth format calling VulkanDepthResources::find_depth_format
 			const vk::Format depth_format_;

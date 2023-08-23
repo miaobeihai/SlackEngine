@@ -136,8 +136,10 @@ namespace SlackEngine
 		public:
 			RenderManager(const game_base_info* received_base_game_info);
 			~RenderManager();
+
+			virtual void initialize_vulkan(const game_base_info* received_base_game_info);
 		private:
-			void initialize_vulkan(const game_base_info* received_base_game_info);
+			
 			void initialize_scheduler();
 			void initialize_gui(float width, float height);
 			void initialize_command_buffers();
